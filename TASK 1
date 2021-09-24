@@ -1,0 +1,3 @@
+start:
+	MOV A, 16
+	MOV [A], 1	

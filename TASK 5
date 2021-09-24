@@ -1,0 +1,15 @@
+start:
+	MOV A, 232
+	MOV B, 49
+	MOV [A], B	
+.loop:
+	ADD A, 1
+	ADD B, 1	
+	MOV [A], B	
+	CMP A, 240
+	JNZ .loop
+start:
+	MOV A, 241
+	MOV [A], 49
+	MOV A, 242
+	MOV [A], 48	
